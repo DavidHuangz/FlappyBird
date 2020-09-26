@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+entity test is
+port(mode : in std_logic_vector(2 downto 0);
+		bird : in std_logic_vector(2 downto 0);
+		text_data : in std_logic;
+		red : out std_logic;
+		green : out std_logic;
+		blue : out std_logic);
+end entity test;
+
+architecture behaviour of test is
+begin
+	character_address <= "000110" when pixel_column > 48 and pixel_column < 64 and mode = "000" else
+		"001100" when pixel_column > 64 and pixel_column < 80 and mode = "000" else
+		"000001" when pixel_column > 80 and pixel_column < 96 and mode = "000" else
+		"010000" when pixel_column > 96 and pixel_column < 128 and mode = "000" else
+		"011001" when pixel_column > 128 and pixel_column < 144 and mode = "000" else
+		null;
+	text_row <= pixel_row(3 downto 1) when (pixel_row > 48 and pixel_row < 64 and pixel_column > 48 and pixel_column < 144 and mode = "000") else "111";
+	text_column <= pixel_column(3 downto 1) when (pixel_column > 48 and pixel_column < 144 and pixel_row > 48 and pixel_row < 64 and mode = "000") else "111";
+end architecture behaviour;

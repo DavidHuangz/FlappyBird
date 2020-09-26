@@ -1,0 +1,11 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.all;
+USE  IEEE.STD_LOGIC_ARITH.all;
+USE  IEEE.STD_LOGIC_SIGNED.all;
+
+
+ENTITY InGame_stats IS
+	PORT
+		( SIGNAL pixel_row, pixel_column		: IN std_logic_vector(9 DOWNTO 0);
+		SIGNAL bird_on 			: OUT std_logic);		
+END bird_move;

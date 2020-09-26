@@ -1,0 +1,14 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity lsfr_4bit_seed is
+	port(lsfr_seed_1, lsfr_seed_2, lsfr_seed_3, : out std_logic_vector(3 downto 0));
+end entity lsfr_4bit_seed;
+
+architecture behaviour of lsfr_4bit_seed is
+begin
+	lsfr_seed_1 <= "0101";
+	lsfr_seed_2 <= "1010";
+	lsfr_seed_3 <= "1001";
+end architecture behaviour;

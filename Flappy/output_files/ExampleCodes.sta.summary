@@ -1,0 +1,509 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clockdivider|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -7.595
+TNS   : -56.883
+
+Type  : Slow 1200mV 85C Model Setup 'VGA_SYNC:display|vert_sync_out'
+Slack : -6.704
+TNS   : -259.565
+
+Type  : Slow 1200mV 85C Model Setup 'InGame_stats:game_stats|collision'
+Slack : -2.167
+TNS   : -7.647
+
+Type  : Slow 1200mV 85C Model Setup 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : -2.122
+TNS   : -51.878
+
+Type  : Slow 1200mV 85C Model Setup 'InGame_stats:game_stats|health_up'
+Slack : -1.902
+TNS   : -7.588
+
+Type  : Slow 1200mV 85C Model Setup 'InGame_stats:game_stats|Health1[0]'
+Slack : -0.276
+TNS   : -0.452
+
+Type  : Slow 1200mV 85C Model Setup 'pipe_master:pipe_control|reset_3'
+Slack : -0.235
+TNS   : -0.531
+
+Type  : Slow 1200mV 85C Model Setup 'pipe_master:pipe_control|reset_2'
+Slack : -0.218
+TNS   : -0.398
+
+Type  : Slow 1200mV 85C Model Setup 'pipe_master:pipe_control|reset_1'
+Slack : -0.175
+TNS   : -0.335
+
+Type  : Slow 1200mV 85C Model Hold 'InGame_stats:game_stats|Health1[0]'
+Slack : -2.228
+TNS   : -6.380
+
+Type  : Slow 1200mV 85C Model Hold 'VGA_SYNC:display|vert_sync_out'
+Slack : -0.690
+TNS   : -3.153
+
+Type  : Slow 1200mV 85C Model Hold 'clockdivider|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.182
+TNS   : -0.182
+
+Type  : Slow 1200mV 85C Model Hold 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : -0.031
+TNS   : -0.031
+
+Type  : Slow 1200mV 85C Model Hold 'InGame_stats:game_stats|collision'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'InGame_stats:game_stats|health_up'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pipe_master:pipe_control|reset_2'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pipe_master:pipe_control|reset_3'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pipe_master:pipe_control|reset_1'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'InGame_stats:game_stats|collision'
+Slack : -0.523
+TNS   : -2.092
+
+Type  : Slow 1200mV 85C Model Recovery 'InGame_stats:game_stats|health_up'
+Slack : -0.474
+TNS   : -1.894
+
+Type  : Slow 1200mV 85C Model Recovery 'VGA_SYNC:display|vert_sync_out'
+Slack : -0.370
+TNS   : -2.422
+
+Type  : Slow 1200mV 85C Model Recovery 'pipe_master:pipe_control|reset_1'
+Slack : -0.327
+TNS   : -1.308
+
+Type  : Slow 1200mV 85C Model Recovery 'pipe_master:pipe_control|reset_2'
+Slack : -0.272
+TNS   : -1.088
+
+Type  : Slow 1200mV 85C Model Recovery 'pipe_master:pipe_control|reset_3'
+Slack : -0.127
+TNS   : -0.508
+
+Type  : Slow 1200mV 85C Model Recovery 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : 0.132
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'VGA_SYNC:display|vert_sync_out'
+Slack : -0.219
+TNS   : -2.349
+
+Type  : Slow 1200mV 85C Model Removal 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : -0.121
+TNS   : -1.746
+
+Type  : Slow 1200mV 85C Model Removal 'pipe_master:pipe_control|reset_3'
+Slack : -0.111
+TNS   : -0.444
+
+Type  : Slow 1200mV 85C Model Removal 'pipe_master:pipe_control|reset_2'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'pipe_master:pipe_control|reset_1'
+Slack : 0.093
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'InGame_stats:game_stats|health_up'
+Slack : 0.259
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'InGame_stats:game_stats|collision'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA_SYNC:display|vert_sync_out'
+Slack : -1.000
+TNS   : -68.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : -1.000
+TNS   : -37.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'InGame_stats:game_stats|collision'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'InGame_stats:game_stats|health_up'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pipe_master:pipe_control|reset_1'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pipe_master:pipe_control|reset_2'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pipe_master:pipe_control|reset_3'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'InGame_stats:game_stats|Health1[0]'
+Slack : -0.569
+TNS   : -9.879
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.825
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clockdivider|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.737
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clockdivider|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -6.579
+TNS   : -48.676
+
+Type  : Slow 1200mV 0C Model Setup 'VGA_SYNC:display|vert_sync_out'
+Slack : -5.887
+TNS   : -226.430
+
+Type  : Slow 1200mV 0C Model Setup 'InGame_stats:game_stats|collision'
+Slack : -1.826
+TNS   : -6.334
+
+Type  : Slow 1200mV 0C Model Setup 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : -1.822
+TNS   : -43.433
+
+Type  : Slow 1200mV 0C Model Setup 'InGame_stats:game_stats|health_up'
+Slack : -1.597
+TNS   : -6.371
+
+Type  : Slow 1200mV 0C Model Setup 'InGame_stats:game_stats|Health1[0]'
+Slack : -0.263
+TNS   : -0.382
+
+Type  : Slow 1200mV 0C Model Setup 'pipe_master:pipe_control|reset_3'
+Slack : -0.096
+TNS   : -0.149
+
+Type  : Slow 1200mV 0C Model Setup 'pipe_master:pipe_control|reset_2'
+Slack : -0.086
+TNS   : -0.124
+
+Type  : Slow 1200mV 0C Model Setup 'pipe_master:pipe_control|reset_1'
+Slack : -0.049
+TNS   : -0.078
+
+Type  : Slow 1200mV 0C Model Hold 'InGame_stats:game_stats|Health1[0]'
+Slack : -1.760
+TNS   : -5.011
+
+Type  : Slow 1200mV 0C Model Hold 'VGA_SYNC:display|vert_sync_out'
+Slack : -0.494
+TNS   : -2.538
+
+Type  : Slow 1200mV 0C Model Hold 'clockdivider|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.287
+TNS   : -0.287
+
+Type  : Slow 1200mV 0C Model Hold 'InGame_stats:game_stats|collision'
+Slack : -0.045
+TNS   : -0.087
+
+Type  : Slow 1200mV 0C Model Hold 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : 0.205
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'InGame_stats:game_stats|health_up'
+Slack : 0.281
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pipe_master:pipe_control|reset_1'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pipe_master:pipe_control|reset_3'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pipe_master:pipe_control|reset_2'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'InGame_stats:game_stats|collision'
+Slack : -0.473
+TNS   : -1.892
+
+Type  : Slow 1200mV 0C Model Recovery 'InGame_stats:game_stats|health_up'
+Slack : -0.436
+TNS   : -1.742
+
+Type  : Slow 1200mV 0C Model Recovery 'pipe_master:pipe_control|reset_1'
+Slack : -0.425
+TNS   : -1.700
+
+Type  : Slow 1200mV 0C Model Recovery 'VGA_SYNC:display|vert_sync_out'
+Slack : -0.387
+TNS   : -2.984
+
+Type  : Slow 1200mV 0C Model Recovery 'pipe_master:pipe_control|reset_2'
+Slack : -0.360
+TNS   : -1.440
+
+Type  : Slow 1200mV 0C Model Recovery 'pipe_master:pipe_control|reset_3'
+Slack : -0.241
+TNS   : -0.964
+
+Type  : Slow 1200mV 0C Model Recovery 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'VGA_SYNC:display|vert_sync_out'
+Slack : -0.086
+TNS   : -0.636
+
+Type  : Slow 1200mV 0C Model Removal 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : 0.098
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pipe_master:pipe_control|reset_3'
+Slack : 0.122
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pipe_master:pipe_control|reset_2'
+Slack : 0.230
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pipe_master:pipe_control|reset_1'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'InGame_stats:game_stats|health_up'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'InGame_stats:game_stats|collision'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA_SYNC:display|vert_sync_out'
+Slack : -1.000
+TNS   : -68.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : -1.000
+TNS   : -37.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'InGame_stats:game_stats|collision'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'InGame_stats:game_stats|health_up'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pipe_master:pipe_control|reset_1'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pipe_master:pipe_control|reset_2'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pipe_master:pipe_control|reset_3'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'InGame_stats:game_stats|Health1[0]'
+Slack : -0.412
+TNS   : -7.067
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.785
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clockdivider|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.743
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clockdivider|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -3.970
+TNS   : -30.088
+
+Type  : Fast 1200mV 0C Model Setup 'VGA_SYNC:display|vert_sync_out'
+Slack : -3.704
+TNS   : -124.912
+
+Type  : Fast 1200mV 0C Model Setup 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : -0.752
+TNS   : -12.941
+
+Type  : Fast 1200mV 0C Model Setup 'InGame_stats:game_stats|collision'
+Slack : -0.738
+TNS   : -2.507
+
+Type  : Fast 1200mV 0C Model Setup 'InGame_stats:game_stats|health_up'
+Slack : -0.614
+TNS   : -2.411
+
+Type  : Fast 1200mV 0C Model Setup 'InGame_stats:game_stats|Health1[0]'
+Slack : 0.031
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pipe_master:pipe_control|reset_3'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pipe_master:pipe_control|reset_2'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pipe_master:pipe_control|reset_1'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'InGame_stats:game_stats|Health1[0]'
+Slack : -1.379
+TNS   : -3.927
+
+Type  : Fast 1200mV 0C Model Hold 'VGA_SYNC:display|vert_sync_out'
+Slack : -0.555
+TNS   : -2.816
+
+Type  : Fast 1200mV 0C Model Hold 'clockdivider|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.134
+TNS   : -0.134
+
+Type  : Fast 1200mV 0C Model Hold 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : -0.043
+TNS   : -0.087
+
+Type  : Fast 1200mV 0C Model Hold 'InGame_stats:game_stats|collision'
+Slack : -0.012
+TNS   : -0.025
+
+Type  : Fast 1200mV 0C Model Hold 'InGame_stats:game_stats|health_up'
+Slack : 0.118
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pipe_master:pipe_control|reset_1'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pipe_master:pipe_control|reset_2'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pipe_master:pipe_control|reset_3'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'pipe_master:pipe_control|reset_1'
+Slack : 0.100
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'InGame_stats:game_stats|collision'
+Slack : 0.108
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'VGA_SYNC:display|vert_sync_out'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'pipe_master:pipe_control|reset_2'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'InGame_stats:game_stats|health_up'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'pipe_master:pipe_control|reset_3'
+Slack : 0.220
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : 0.267
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'VGA_SYNC:display|vert_sync_out'
+Slack : -0.217
+TNS   : -2.755
+
+Type  : Fast 1200mV 0C Model Removal 'pipe_master:pipe_control|reset_3'
+Slack : -0.034
+TNS   : -0.136
+
+Type  : Fast 1200mV 0C Model Removal 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : -0.003
+TNS   : -0.033
+
+Type  : Fast 1200mV 0C Model Removal 'pipe_master:pipe_control|reset_2'
+Slack : 0.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'InGame_stats:game_stats|health_up'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'pipe_master:pipe_control|reset_1'
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'InGame_stats:game_stats|collision'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA_SYNC:display|vert_sync_out'
+Slack : -1.000
+TNS   : -68.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MOUSE:mouse|MOUSE_CLK_FILTER'
+Slack : -1.000
+TNS   : -37.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'InGame_stats:game_stats|collision'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'InGame_stats:game_stats|health_up'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pipe_master:pipe_control|reset_1'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pipe_master:pipe_control|reset_2'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pipe_master:pipe_control|reset_3'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'InGame_stats:game_stats|Health1[0]'
+Slack : -0.141
+TNS   : -1.322
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.585
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clockdivider|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.748
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ExampleCodes">
+		<CBX_INST_ENTRY INSTANCE_NAME="|interim|altpll0:clockdivider|altpll:altpll_component" CBX_FILE_NAME="altpll0_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|interim|char_rom:text|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_kt91.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
